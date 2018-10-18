@@ -105,7 +105,7 @@ Rails.application.routes.draw do
   #delete '/settlement/:id', to: 'settlements#delete'
 
   devise_for :users
-  get 'bienvenida/index'
+  #get 'bienvenida/index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
